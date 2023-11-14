@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE cafenea SYSTEM "cafenea.dtd">
+
+<cafenea>
+    <cafea id="1">
+        <nume>Latte</nume>
+        <pret>5.4 lei</pret>
+        <cantitate>200ml</cantitate>
+        <ingrediente>
+            <item>lapte</item>
+            <item>esspresso</item>
+        </ingrediente>
+    </cafea>
+
+    <cafea id="2">
+        <nume>Espresso</nume>
+        <pret>3.2 lei</pret>
+        <cantitate>1500ml</cantitate>
+        <ingrediente>
+            <item>cafea măcinată</item>
+            <item>apa</item>
+        </ingrediente>
+    </cafea>
+
+    <cafea id="3">
+        <nume>Capuccino</nume>
+        <pret>6.7 lei</pret>
+        <cantitate>200ml</cantitate>
+        <ingrediente>
+            <item>espresso</item>
+            <item>lapte rece</item>
+            <item>spumă de lapte</item>
+        </ingrediente>
+    </cafea>
+
+    <cafea id="4">
+        <nume>Cappucino Vienesse</nume>
+        <pret>14.9 lei</pret>
+        <cantitate>150ml</cantitate>
+        <ingrediente>
+            <item>espresso</item>
+            <item>cremă de lapte</item>
+            <item>frișcă</item>
+        </ingrediente>
+    </cafea>
+
+    <cafea id="5">
+        <nume>Frappe</nume>
+        <pret>14.9 lei</pret>
+        <cantitate>250ml</cantitate>
+        <ingrediente>
+            <item>mess</item>
+            <item>înghețată</item>
+            <item>lapte</item>
+            <item>frișcă</item>
+        </ingrediente>
+    </cafea>
+
+    <cafea id="6">
+        <nume>Irish Coffe</nume>
+        <pret>19.9 lei</pret>
+        <cantitate>250ml</cantitate>
+        <ingrediente>
+            <item>espresso</item>
+            <item>irish whiskey</item>
+            <item>zahăr brun</item>
+            <item>frișcă lichidă</item>
+        </ingrediente>
+    </cafea>
+
+    <cafea id="7">
+        <nume>Flat White</nume>
+        <pret>17.9 lei</pret>
+        <cantitate>180ml</cantitate>
+        <ingrediente>
+            <item>dublu shot espresso</item>
+            <item>cremă de lapte</item>
+        </ingrediente>
+    </cafea>
+</cafenea>

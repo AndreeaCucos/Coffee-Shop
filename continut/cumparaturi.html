@@ -1,0 +1,30 @@
+<p style="font-size:small;"><i>Înainte de a insera în baza de date apăsați acest buton</i></p>
+<button  id="deleteTable" onclick="sterge()">Delete</button>
+<div style="text-align:center;">
+    <form>
+        <label for="name"><b><i>Nume:</i></b></label>
+        <input id="name" type="text"/>
+        <br />
+        <br />
+        <label for="cant"><b><i>Cantitate:</i></b></label>
+        <input id="cant" type="number"/>
+        <br />
+        <br />
+    </form>
+    <select name="choose" id="choose">
+        <option value="webAPI">web</option>
+        <option value="baza" >baza</option>
+    </select>
+    <button id="buttonbuy" onclick="addToCart()">Adaugă</button>
+</div>
+<br />
+<br />
+<div>
+    <table id="lista" style="width:40%">
+        <tr>
+            <th>ID</th>
+            <th>Nume Produs</th>
+            <th>Cantitate</th>
+        </tr>
+    </table>
+</div>

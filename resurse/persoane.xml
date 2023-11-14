@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE persoane SYSTEM "persoane.dtd">
+
+<persoane>
+    <persoana id="1">
+        <nume>Popescu</nume>
+        <prenume>Ion</prenume>
+        <varsta>23</varsta>
+        <adresa>
+            <strada>Decebal</strada>
+            <numar>9</numar>
+            <localitate>Iasi</localitate>
+            <tara>Romania</tara>
+        </adresa>
+        <scoala>Facultatea de Automatica si Calculatoare</scoala>
+        <telefon>0716574839</telefon>
+        <email>ion@yahoo.com</email>
+        <limba_materna>romana</limba_materna>
+    </persoana>
+
+    <persoana id="2">
+        <nume>Ana</nume>
+        <prenume>Maria</prenume>
+        <varsta>19</varsta>
+        <adresa>
+            <strada>Decebal</strada>
+            <numar>15</numar>
+            <localitate>Iasi</localitate>
+            <tara>Romania</tara>
+        </adresa>
+        <scoala>Facultatea de Automatica si Calculatoare</scoala>
+        <telefon>0776839206</telefon>
+        <email>ana@yahoo.com</email>
+        <limba_materna>romana</limba_materna>
+    </persoana>
+
+    <persoana id="3">
+        <nume>Diana</nume>
+        <prenume>Elena</prenume>
+        <varsta>25</varsta>
+        <adresa>
+            <strada>Decebal</strada>
+            <numar>9</numar>
+            <localitate>Iasi</localitate>
+            <tara>Romania</tara>
+        </adresa>
+        <scoala>Facultatea de Chimie</scoala>
+        <telefon>0793028675</telefon>
+        <email>diana@yahoo.com</email>
+        <limba_materna>romana</limba_materna>
+    </persoana>
+</persoane>

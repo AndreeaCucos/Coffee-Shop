@@ -1,0 +1,148 @@
+<aside>
+    <a href="#panza"  class="asidebutton">
+        <div class="tooltip">C<span class="tooltiptext">Canvas</span></div>
+    </a><br/>
+
+    <a href="#tabel"  class="asidebutton">
+        <div class="tooltip">F<span class="tooltiptext">Furnizori</span></div>
+    </a><br/>
+
+    <a href="#time" class="asidebutton">
+        <div class="tooltip">T<span class="tooltiptext">Timp</span></div> 
+    </a><br/>
+    
+</aside>
+
+<br />
+<br />
+
+<div style="text-align:center;">
+    <!-- CANVAS , la on click se executa functia d care se 
+            ocupa de desenare, dam id pt canvas . Cand dam click
+            retinem coordonatele, cand da click a doua oara se 
+            deseneaza un dreptunghi
+            <canvas onclick="d(event)">
+                var x= null;
+                var y=null;
+                function d(event)
+                {
+                    if(x == null)
+                    {
+                        x = e.offsetX;
+                        y = e.offsetY;
+                    }
+                    else{
+                        let x2 = e.offsetX;
+                        let y2 = e.offsetY;
+                    }
+                } -->
+
+    <section id="time">
+        <h3 class="neonText" style="color: black">Timpul curent și versiunea de browser.</h3>
+        <p id="dataMea"></p>
+        <p id="versiune"></p>
+        <button class="showtimp" onClick="f()">Show</button>
+    </section>
+    
+    <br />
+    <br />
+    <br />
+    <hr>
+    <br />
+    <br />
+    <br />
+    <section id="panza">
+        <h3 class="neonText" style="color: black">Pânză</h3>
+        <canvas id="myCanvas" onclick="start(event)" width="200" height="100" style="border:2px solid #000000;">
+        </canvas>
+        <br />
+        <br />
+        <div class="row">
+            <div class="column" style="width:10%;margin-left:310px;">
+                <label for="paint">Culoare Umplere:</label>
+                <br />
+                <br />
+                <input type="color" id="paint" name="paint" value="#cab9de">
+            </div>
+            <div class="column" style="width:10%;margin-left:310px;">
+                <label for="paintStroke">Culoare Margine:</label>
+                <br />
+                <br />
+                <input type="color" id="paintStroke" name="paintStroke" value="#e66465">
+            </div>
+        </div>
+        <button id="delete" onclick="deleteThis()" style="text-align:center;">Delete</button>
+    </section>
+
+
+    <br />
+    <br />
+    <br />
+    <hr>
+    <br />
+    <br />
+    <br />
+    <section id="tabel">
+        <h3 class="neonText" style="color: black">Informații despre furnizorii noștrii</h3>
+        <table id="myTable" style="margin-left: auto;margin-right: auto;">
+            <tr id="tableHead">
+                <th>Furnizor</th>
+                <th>Telefon</th>
+                <th>Adresa</th>
+            </tr>
+            <tr>
+                <td>Doncafe</td>
+                <td>073647581</td>
+                <td>Aleea Decebal nr 9</td>
+            </tr>
+            <tr>
+                <td>Jacobs</td>
+                <td>07657483</td>
+                <td>Strada Lalelelor</td>
+            </tr>
+            <tr>
+                <td>Lavazza</td>
+                <td>0785463829</td>
+                <td>Strada Stefan Cel Mare</td>
+            </tr>
+            <tr>
+                <td>Davidoff</td>
+                <td>0786759403</td>
+                <td>Strada G-ral Dascalescu</td>
+            </tr>
+            <tr>
+                <td>Nespresso</td>
+                <td>0786759430</td>
+                <td>Bulevardul Decebal</td>
+            </tr>
+        </table>
+        <br />
+        <p><b><i>Introduceți o nouă linie în tabel:</i></b></p>
+        <label for="line">Linia:</label>
+        <input type="number" id="line" min="1" max="100">
+        <button type="button" onclick="rowInsertion()">Insert</button>
+
+        <br />
+        <br />
+        <p><b><i>Introduceți o nouă coloană:</i></b></p>
+        <label for="column">Coloana:</label>
+        <input type="number" id="column" min="2" max="100">
+        <button type="button" onclick="columnInsertion()">Insert</button>
+
+        <br />
+        <br />
+        <p><b><i>Inserați în poziția:</i></b></p>
+        <label for="ln">Linia:</label>
+        <input type="number" id="ln" min="1" max="100">
+        <label for="cl">Coloana:</label>
+        <input type="number" id="cl" min="1" max="100">
+        <!--<label for="txt">Valoare de introdus:</label>
+        <input type="text" id="txt">
+        -->
+        
+        <input type="color" id="cellColor" name="cellColor" value="#e66465">
+        <button type="button" onclick="preciseInsertion()">Insert</button>
+    </section>
+    <br />
+    <br />
+</div>

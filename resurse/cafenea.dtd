@@ -1,0 +1,8 @@
+<!ELEMENT cafenea (cafea+)>
+<!ELEMENT cafea (nume, pret, cantitate, ingrediente)>
+<!ELEMENT nume (#PCDATA)>
+<!ELEMENT pret (#PCDATA)>
+<!ELEMENT cantitate (#PCDATA)>
+<!ELEMENT ingrediente (item+)>
+<!ELEMENT item (#PCDATA)>
+<!ATTLIST cafea id CDATA "0">
